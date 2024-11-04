@@ -1,0 +1,70 @@
+/*--------------------------------------------------------------
+#                        General 
+--------------------------------------------------------------*/
+.pagination {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-self: center;
+}
+
+.arrow {
+  line-height: 12px;
+  border: 1px solid #5662d4;
+}
+
+.arrow:hover {
+  background-color: #5662d4;
+}
+
+.number-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.arrow,
+.number-button {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.number-button:not(.number-button-active, .no-hover):hover {
+  background-color: rgb(86, 98, 212, 0.5);
+}
+
+.number-button-active {
+  background-color: #5662d4;
+}
+
+.arrow,
+.number-button {
+  display: grid;
+  place-items: center;
+  width: 25px;
+  height: 25px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+/*--------------------------------------------------------------
+#                       Responsive
+--------------------------------------------------------------*/
+
+@media (min-width: 576px) {
+  .arrow,
+  .number-button {
+    width: 38px;
+    height: 38px;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .pagination {
+    gap: 20px;
+  }
+}
+
+

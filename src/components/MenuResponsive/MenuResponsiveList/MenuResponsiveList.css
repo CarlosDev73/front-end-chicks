@@ -1,0 +1,23 @@
+
+/*--------------------------------------------------------------
+#                        General 
+--------------------------------------------------------------*/
+
+.menu-responsive-list {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+.menu-responsive-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  width: 100%;
+  height: 60px;
+  border-bottom: 2px solid rgba(76, 96, 133, 0.2);
+  background-color: #262833;
+  cursor: pointer;
+}

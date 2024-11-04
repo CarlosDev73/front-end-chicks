@@ -1,0 +1,114 @@
+/*--------------------------------------------------------------
+#                        General 
+--------------------------------------------------------------*/
+
+.navbar {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  min-height: 72px;
+  padding: 0 18px;
+  border-bottom: 1px solid #3e4863;
+  background-color: #303141;
+  color: white;
+}
+
+/*--------------------------------------------------------------
+#                Menu logo and menu button
+--------------------------------------------------------------*/
+
+.nav-menu-logo {
+  display: flex;
+}
+
+.menu-button-container {
+  display: flex;
+  margin-top: 3px;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+
+.nav-logo-container {
+  display: flex;
+  justify-content: left;
+}
+
+.nav-logo {
+  width: 140px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+/*--------------------------------------------------------------
+#                Main navigation content
+--------------------------------------------------------------*/
+
+.nav-main-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+
+.nav-preferences {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+
+/*--------------------------------------------------------------
+#                       Responsive
+--------------------------------------------------------------*/
+
+@media (max-width: 386px){
+  .nav-preferences {
+    gap: 7px;
+  }
+}
+
+@media (max-width: 577px){
+  .nav-logo {
+    width: 105px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-preferences {
+    gap: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav-logo-container {
+    display: none;
+  }
+  .menu-button-container {
+    display: none;
+  }
+}
+
+@media (min-width: 1400px) {
+  .nav-logo-container {
+    display: flex;
+    padding-right: 30px;
+    margin-right: 20px;
+    border-right: 1px solid #b2b3b8;
+  }
+}
+
+

@@ -1,0 +1,15 @@
+
+/*--------------------------------------------------------------
+#                        General 
+--------------------------------------------------------------*/
+
+.responsive-menu-footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.responsive-menu-footer-list {
+  display: flex;
+  flex-direction: column;
+  color: #FFFFFF; 
+}
