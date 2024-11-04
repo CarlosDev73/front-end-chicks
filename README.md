@@ -7,7 +7,8 @@ This project involves replicating the "Items" section of Chicks Gold as part of 
 - Visual Consistency in Cards: The proportions and dimensions of the cards were maintained 
 across all views, achieving a consistent and orderly presentation of the elements.
 
-[Live Demo](https://carlosdev73.github.io/front-end-chicks/)
+**Live Demo**
+You can check out the live demo of the project [Here](https://carlosdev73.github.io/front-end-chicks/)
 
 ## Getting Started  🚀
 
