@@ -25,3 +25,30 @@ Now, in order to execute the project, it is necessary to follow the following st
 
 _We start by downloading the repository. To do this, open the console, go to the folder where you want to save the project and run the following command:_
 
+```
+git clone https://github.com/CarlosDev73/front-end-chicks.git
+```
+
+_Next, the necessary project dependencies must be installed using the following command.:_
+
+```
+npm install
+```
+
+_Once the dependencies have been installed, the project is ready to be deployed._
+
+## Deployment  📦
+
+* _To perform a local deployment (localhost:5173) of the project, execute one of the following commands:_
+
+```
+npm run dev
+```
+
+## Documentation 📝
+[Front-end Chicks Gold Items Vision Document](https://drive.google.com/file/d/16u8GT-6Mj_t2U_tpPCNalbEcbdZrYuN2/view?usp=sharing)
+
+
+## Author ✒️
+
+**Carlos Gutierrez** - [CarlosDev73](https://github.com/CarlosDev73)
